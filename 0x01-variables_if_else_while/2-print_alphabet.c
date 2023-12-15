@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - this is the function of the task
+ * main - print alphabets in lower case a-z
  *
  * Return: always (0) 
  *
  */
 int main(void)
 {
-	char i; = 'a'
+	char i = 'a'
 	while (i <= 'z')
 	{
 		putchar(i);
