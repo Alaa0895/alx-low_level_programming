@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  *  main - this is the function of the task
+  * main - this is the function of the task
   * Return: 0 
   */
 
