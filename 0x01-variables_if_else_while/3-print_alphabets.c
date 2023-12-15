@@ -1,25 +1,22 @@
-#include <stdio>
+#include <time.h>
+
+
 /**
- * main - print alpha in caps and low case
- *
- * Return: (0)
- *
+ * main - Entry print
+ * Return: Always 0 (Success)
  */
 int main(void)
+
 {
-	char Lower = 'a';
-	char Upper = 'A';
+	
+	char low;
 
-	while (Lower <= 'z')
-	{
-		putchar(Lower);
-		Lower++;
-	}
-	while (Upper <= 'z')
-	{
-		putchar(Upper);
-		Upper++;
-	}
+	for (lower = 'a'; low <= 'z'; low++)
+	putchar(low);
+
+	for (lower = 'A'; low <= 'Z'; low++)
+        putchar(low);
 	putchar('\n');
-	return (0);
 
+	return (0);
+}
