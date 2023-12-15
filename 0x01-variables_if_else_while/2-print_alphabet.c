@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - print alphabets in lower case a-z
- *
- * Return: always (0) 
- *
- */
+* main - print alphabets in lower case a-z
+*
+* Return: always (0) 
+*
+*/
 int main(void)
 {
 	char i = 'a';
