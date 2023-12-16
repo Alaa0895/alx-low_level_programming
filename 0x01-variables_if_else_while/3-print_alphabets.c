@@ -1,22 +1,18 @@
 #include <time.h>
 
-
 /**
  * main - Entry print
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-	
-	char low;
+	char i;
 
-	for (lower = 'a'; low <= 'z'; low++)
-	putchar(low);
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
 
-	for (lower = 'A'; low <= 'Z'; low++)
-        putchar(low);
+	for (i = 'A'; i <= 'Z'; i++)
+		putchar(i);
 	putchar('\n');
-
 	return (0);
 }
