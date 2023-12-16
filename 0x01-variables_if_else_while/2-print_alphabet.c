@@ -2,17 +2,16 @@
 
 /**
  * main - main function
- * Return: always (0) 
+ * Return: Always (Success) 
  */
+
 int main(void)
+
 {
-	char i;
+	char c;
 
-	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
-	for (i = 'A'; i <= 'Z'; i++)
-		putchar(i);
-
+	for (c = 'a'; c <= 'z'; i++)
+	putchar(i);
 	putchar('\n');
         return (0);
 }
