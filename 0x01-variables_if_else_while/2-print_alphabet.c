@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * main - print alphabets in lower case a-z
- *
+ * main - Entry point, print alphabets in lowercase a-z
  * Return: always 0 (Success) 
- *
  */
 int main(void)
 {
