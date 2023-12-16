@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - Entry point, print alphabets in lowercase a-z
+ * main - Entry point, prints the alphabet in lowercase
  * Return: always 0 (Success) 
  */
 int main(void)
