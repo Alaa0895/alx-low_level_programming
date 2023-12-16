@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point, prints the alphabet in lowercase
- * Return: always 0 (Success) 
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
@@ -10,8 +10,8 @@ int main(void)
 
 	while (i <= 'z')
 	{
-		putchar(i);
-		i++;
+	 putchar(i);
+	 i++;
 	}
 
 	putchar('\n');
