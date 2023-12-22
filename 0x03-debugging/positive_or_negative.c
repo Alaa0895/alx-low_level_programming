@@ -5,7 +5,7 @@
  * Return: 0 on success
  */
 
-void positive_or_negative(int i)
+void positive_or_negative(void)
 {
 	if (i < 0)
 	{
