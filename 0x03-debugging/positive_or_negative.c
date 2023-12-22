@@ -1,16 +1,4 @@
 #include "main.h"
-/**
- * main - Entry point for the program
- * Return: 0 on success
- */
-int main(void)
-{
-	int number = 0;
-
-	positive_or_negative(number);
-
-	return (0);
-}
 
 /**
  * positive_or_negative - Determine if a number is positive, negative, or zero.
