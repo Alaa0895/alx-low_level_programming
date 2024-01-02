@@ -16,7 +16,7 @@ char * _stropy(char *dest, char*src)
 	{
 		l++;
 	}
-	for ( ; × < l ; x++)
+	for ( ; x < l ; x++)
 	{
 	dest[x] = src[x];
 	}
