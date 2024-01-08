@@ -1,4 +1,4 @@
-#1nclude "main.h"
+#include "main.h"
 /**
  * _memcpy - Entry point
  * @dest: input
@@ -11,6 +11,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
-	dest[i] = srclil;
+	dest[i] = src[i];
 	return (dest);
 }
