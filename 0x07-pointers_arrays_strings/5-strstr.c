@@ -1,21 +1,26 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_chessboard - prints the chessboard
- * @a: pointer to pieces to print
- * Return: void
+ * _strstr - Entry point
+ * @haystack: input
+ * @needle: input
+ * Return: Always 0 (Success)
  */
-
-void print_chessboard(char (*a)[8])
+char *_strstr(char *haystack, char *needle)
 {
-	int i, j;
-
-	for (i = 0; i < 8; i++)
+	for (; *haystack != '\0'; haystack++)
 	{
-		for (j = 0; j < 8; j++)
+		char *one = haystack;
+		char *two = needle;
+
+		while (*one == *two && *two != '\0')
 		{
-			_putchar(a[i][j]);
+			one++;
+			two++;
 		}
-		_putchar ('\n');
+		if (*two == '\0')
+			return (haystack);
 	}
+	return (NULL);
 }
