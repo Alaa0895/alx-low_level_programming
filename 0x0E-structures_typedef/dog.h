@@ -2,8 +2,9 @@
 #define DOG_H
 /**
  * struct dog - a dog struct
- * @name: dog's name
- * downer do'seas name
+ * @name : dog's name
+ * @age :
+ * @owner : owners's name
  * Description: just a lone dog struct in a big kitty world
  */
 struct dog
