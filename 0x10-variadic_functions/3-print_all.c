@@ -5,7 +5,7 @@
 
 /**
  * print_all - print any argument provided to
- * function
+ * function.
  * @format: the argument specifier
  *
  * Return: any argument given based on format specifier
@@ -29,7 +29,7 @@ void print_all(const char * const format, ...)
 				check_stat = 0;
 				break;
 			case 'f':
-				printf("%d", va_arg(spc, int));
+				printf("%f", va_arg(spc, double));
 				check_stat = 0;
 				break;
 			case 'c':
