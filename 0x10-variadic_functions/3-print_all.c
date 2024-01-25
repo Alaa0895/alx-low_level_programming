@@ -17,7 +17,6 @@ void print_all(const char * const format, ...)
 	va_list spc;
 
 	va_start(spc, format);
-
 	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
