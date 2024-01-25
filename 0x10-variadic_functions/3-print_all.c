@@ -13,7 +13,6 @@
 void print_all(const char * const format, ...)
 {
 	int i, check_stat;
-
 	char *str;
 	va_list spc;
 
