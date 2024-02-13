@@ -29,6 +29,8 @@ int main(int ac, char **av)
 
 	while ((b = read(from_fd, buf, READ_BUF_SIZE)) > 0)
 		if (write(to_fd, buf, b) != b)
+			dprintf(STDERR_FILENO, ERR_NOWRITE, av[2]), exit(99)
+		if (b == -1)
 			dprintf(STDERR_FILENO, ERR_NOREAD, av[1]), exit(98);
 
 	from_fd = close(from_fd);
