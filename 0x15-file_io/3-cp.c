@@ -1,4 +1,5 @@
 #include "main.h"
+
 #define USAGE "Usage: cp file_from file_to\n"
 #define ERR_NOREAD "Error: Can't read from file %s\n"
 #define ERR_NOWRITE "Error: Can't write to %s\n"
@@ -26,7 +27,7 @@ int main(int ac, char **av)
 	if (to_fd == -1)
 		dprintf(STDERR_FILENO, ERR_NOWRITE, av[2]), exit(99);
 
-	while  ((b = read(from_fd, buf, READ_BUF_SIZE)) > 0)
+	while ((b = read(from_fd, buf, READ_BUF_SIZE)) > 0)
 		if (write(to_fd, buf, b) != b)
 			dprintf(STDERR_FILENO, ERR_NOREAD, av[1]), exit(98);
 
